@@ -18,19 +18,17 @@
 
 如果你需要其他颜色的贴图，可在如下位置找到
 
-* 车万女仆官方github仓库
+* 车万女仆官方github仓库\
+  [https://github.com/TartaricAcid/TouhouLittleMaid/tree/1.20/src/main/resources/assets/touhou\_little\_maid/tlm\_custom\_pack/touhou\_little\_maid-1.0.0/assets/geckolib/textures/entity](https://github.com/TartaricAcid/TouhouLittleMaid/tree/1.20/src/main/resources/assets/touhou_little_maid/tlm_custom_pack/touhou_little_maid-1.0.0/assets/geckolib/textures/entity)
 
-&#x09;[https://github.com/TartaricAcid/TouhouLittleMaid/tree/1.20/src/main/resources/assets/touhou\_little\_maid/tlm\_custom\_pack/touhou\_little\_maid-1.0.0/assets/geckolib/textures/entity](https://github.com/TartaricAcid/TouhouLittleMaid/tree/1.20/src/main/resources/assets/touhou_little_maid/tlm_custom_pack/touhou_little_maid-1.0.0/assets/geckolib/textures/entity)
-
-* 解压车万女仆的模组jar文件
-
-&#x09;路径为 assets/touhou\_little\_maid/tlm\_custom\_pack/touhou\_little\_maid-1.0.0/assets/geckolib/textures/entity
-
+* 解压车万女仆的模组jar文件\
+  路径为 assets/touhou\_little\_maid/tlm\_custom\_pack/touhou\_little\_maid-1.0.0/assets/geckolib/textures/entity
+  
 任何寻找任何以wine\_fox开头的png即可。
 
+注意，你需要在unity中将贴图的过滤模式设为Point来避免贴图变得模糊！
 
-
-
+![贴图设置](关于贴图.png)
 
 ##### 统计信息
 
