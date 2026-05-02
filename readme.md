@@ -1,6 +1,6 @@
 # 酒狐 VRChat 模型 工程文件
 
-酒狐(角色) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [车万女仆(Touhou Little Maid)](https://modrinth.com/mod/touhou-little-maid/versions) 模组。 
+酒狐(角色) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [车万女仆(Touhou Little Maid)](https://modrinth.com/mod/touhou-little-maid/versions) 模组。
 
 原作者 godzilla256‚ 星屑海螺
 
@@ -11,6 +11,24 @@
 该模型评分在Windows为Excellent，在Android和IOS为good。
 
 该模型的耳朵，头发，蝴蝶结，尾巴，裙子，均存在物理或模拟的物理效果。
+
+
+
+##### 关于贴图
+
+如果你需要其他颜色的贴图，可在如下位置找到
+
+* 车万女仆官方github仓库
+
+&#x09;[https://github.com/TartaricAcid/TouhouLittleMaid/tree/1.20/src/main/resources/assets/touhou\_little\_maid/tlm\_custom\_pack/touhou\_little\_maid-1.0.0/assets/geckolib/textures/entity](https://github.com/TartaricAcid/TouhouLittleMaid/tree/1.20/src/main/resources/assets/touhou_little_maid/tlm_custom_pack/touhou_little_maid-1.0.0/assets/geckolib/textures/entity)
+
+* 解压车万女仆的模组jar文件
+
+&#x09;路径为 assets/touhou\_little\_maid/tlm\_custom\_pack/touhou\_little\_maid-1.0.0/assets/geckolib/textures/entity
+
+任何寻找任何以wine\_fox开头的png即可。
+
+
 
 
 
@@ -39,7 +57,7 @@ winefox.gltf -- 由blockbench直接从json模型转换而来。
 
 酒狐合并.fbx -- 由最新的 酒狐合并.blend 直接导出得到。
 
+wine fox.unity -- 导出的unity package，用于更方便的导入。
+
 asstes文件夹 -- 包含用于在unity中搭建该Avatar需要的全部文件。
-
-
 
