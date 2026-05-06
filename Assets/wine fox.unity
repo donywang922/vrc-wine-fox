@@ -1005,8 +1005,8 @@ MonoBehaviour:
       ParentRotationOffset: {x: 0, y: 0, z: 0}
     totalLength: 1
     overflowList: []
-  cachedExecutionGroupIndex: 0
-  latestValidExecutionGroupIndex: 0
+  cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: 1
   RotationAtRest: {x: -9.699432, y: -89.89398, z: 179.9873}
   RotationOffset: {x: 9.699421, y: -90.10602, z: -0.0126953125}
   AffectsRotationX: 0
@@ -1114,8 +1114,8 @@ MonoBehaviour:
       ParentRotationOffset: {x: 0, y: 0, z: 0}
     totalLength: 1
     overflowList: []
-  cachedExecutionGroupIndex: 1
-  latestValidExecutionGroupIndex: 1
+  cachedExecutionGroupIndex: 0
+  latestValidExecutionGroupIndex: 0
   RotationAtRest: {x: -9.49588, y: -89.89459, z: 179.9873}
   RotationOffset: {x: 11.162083, y: -92.22055, z: -3.2885742}
   AffectsRotationX: 1
@@ -2765,7 +2765,7 @@ PrefabInstance:
     - target: {fileID: 896038239188247991, guid: 5813bcda6d2b3c84593e659858cc9d18,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000017638087
+      value: 0.0000017613639
       objectReference: {fileID: 0}
     - target: {fileID: 896038239188247991, guid: 5813bcda6d2b3c84593e659858cc9d18,
         type: 3}
@@ -3005,7 +3005,7 @@ PrefabInstance:
     - target: {fileID: 6616382795751987156, guid: 5813bcda6d2b3c84593e659858cc9d18,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000017412241
+      value: -0.0000017384301
       objectReference: {fileID: 0}
     - target: {fileID: 6616382795751987156, guid: 5813bcda6d2b3c84593e659858cc9d18,
         type: 3}
