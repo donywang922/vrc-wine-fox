@@ -55,7 +55,7 @@ winefox.gltf -- 由blockbench直接从json模型转换而来。
 
 酒狐合并.fbx -- 由最新的 酒狐合并.blend 直接导出得到。
 
-wine fox.unity -- 导出的unity package，用于更方便的导入。
+wine fox.unitypackage -- 导出的unity package，用于更方便的导入。
 
 asstes文件夹 -- 包含用于在unity中搭建该Avatar需要的全部文件。
 
