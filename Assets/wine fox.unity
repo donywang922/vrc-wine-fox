@@ -2708,7 +2708,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6843238925d760c439da8fda30bd7d3c, type: 2}
+      objectReference: {fileID: 9100000, guid: 00843ce07ed555e4c933ed897a82f5f8, type: 2}
     - target: {fileID: 5884875587176587968, guid: 5813bcda6d2b3c84593e659858cc9d18,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -2777,7 +2777,7 @@ PrefabInstance:
     - target: {fileID: 6616382795751987156, guid: 5813bcda6d2b3c84593e659858cc9d18,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000017230633
+      value: -0.0000017216663
       objectReference: {fileID: 0}
     - target: {fileID: 6616382795751987156, guid: 5813bcda6d2b3c84593e659858cc9d18,
         type: 3}
@@ -3250,6 +3250,10 @@ MonoBehaviour:
     isDefault: 1
   AnimationPreset: {fileID: 0}
   animationHashSet:
+  - hash: -814866607
+    name: "\u84DD\u8272"
+  - hash: -1852356271
+    name: "\u6A59\u8272"
   - hash: -542931585
     name: "\u5FAE\u7B11"
   - hash: -909226250
