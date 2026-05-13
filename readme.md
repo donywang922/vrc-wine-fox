@@ -1,12 +1,14 @@
 # 酒狐 VRChat 模型 工程文件
 
-酒狐(角色) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [车万女仆(Touhou Little Maid)](https://modrinth.com/mod/touhou-little-maid/versions) 模组。
+酒狐(角色) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [车万女仆(Touhou Little Maid)](https://modrinth.com/mod/touhou-little-maid) 模组。
 
 原作者 godzilla256‚ 星屑海螺
 
 改编者 YWsuoyi
 
+对称之杖，甜甜卷，巧克力浆果，扳手，纸棍(物品) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [机械动力(Create)](https://modrinth.com/mod/create) 模组。
 
+创造模式物理手杖(物品) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [机械动力：航空学(Create: Aeronautics)](https://modrinth.com/mod/create-aeronautics) 模组。
 
 该模型评分在Windows为Excellent，在Android和IOS为good。
 
@@ -57,7 +59,9 @@ winefox.gltf -- 由blockbench直接从json模型转换而来。
 
 wine fox.unitypackage -- 导出的unity package，用于更方便的导入。
 
-asstes文件夹 -- 包含用于在unity中搭建该Avatar需要的全部文件。
+asstes/ -- 包含用于在unity中搭建该Avatar需要的全部文件。
+
+物品工程文件/ -- 手持物品的中途工程文件。
 
 
 ### 授权协议 / License

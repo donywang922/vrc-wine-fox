@@ -15,7 +15,7 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 19b56b67cdad5a7419a21b35407b77da, type: 2}
   controls:
   - name: "\u5FAE\u7B11"
-    icon: {fileID: 2800000, guid: ac7b895c25502d842919af60f9459fd9, type: 3}
+    icon: {fileID: 2800000, guid: db37cb5e2c24b4d409176f35f6219988, type: 3}
     type: 102
     parameter:
       name: face
@@ -25,7 +25,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u7B11"
-    icon: {fileID: 2800000, guid: 975fc9c1c8f2b7c478d2de5233ba2362, type: 3}
+    icon: {fileID: 2800000, guid: 54e48747caaee5142964b1e4f6d6413b, type: 3}
     type: 102
     parameter:
       name: face
@@ -35,7 +35,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u60CA\u8BB6"
-    icon: {fileID: 2800000, guid: 63c1e361fed437e468e4f23587069083, type: 3}
+    icon: {fileID: 2800000, guid: 2d5f591357962f745a16ebc16658f44e, type: 3}
     type: 102
     parameter:
       name: face
@@ -45,7 +45,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u5BB3\u6015"
-    icon: {fileID: 2800000, guid: d5c29554642ad9643ba8d1da879760a3, type: 3}
+    icon: {fileID: 2800000, guid: 89156676df095fd4c9a348e3bce9f7c8, type: 3}
     type: 102
     parameter:
       name: face
