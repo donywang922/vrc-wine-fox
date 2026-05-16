@@ -1,0 +1,2 @@
+v.extra=!ctrl.playing_extra_animation?0:v.extra;
+v.extra=ctrl.carryon_is_princess?0:v.extra;

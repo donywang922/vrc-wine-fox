@@ -1,0 +1,50 @@
+
+
+
+ctrl.sleep ? {
+
+   ctrl.set_animation('molang&sleep_random');
+    return ctrl.state_continue;
+};
+
+
+(v.extra==10?1:0)&&v.music_config ? {
+
+     
+        ctrl.set_animation('molang&extra:huhuyao:music');
+        return ctrl.state_continue;
+  
+};
+
+
+
+(v.extra==11?1:0)&&v.music_config ? {
+
+     
+        ctrl.set_animation('molang&extra:dooble:music');
+        return ctrl.state_continue;
+  
+};
+
+(v.extra==12?1:0)&&v.music_config ? {
+
+        
+        ctrl.set_animation('molang&extra:sanfenmaiba:music');
+        return ctrl.state_continue;
+  
+};
+
+(v.extra==13?1:0)&&v.music_config ? {
+
+        
+        ctrl.set_animation('molang&extra:changyeyao:music');
+        return ctrl.state_continue;
+  
+};
+
+
+
+
+
+
+return ctrl.state_bypass;

@@ -1,0 +1,10 @@
+
+fn.is_carry_off;
+
+v.is_carry_off == 1 ? {
+    ctrl.set_animation('molang&arm:carry_block:off');
+    return ctrl.state_continue;
+};
+
+
+return ctrl.state_bypass;

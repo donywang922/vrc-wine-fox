@@ -1,0 +1,148 @@
+fn.is_carry_main;
+fn.is_carry_off;
+fn.speek_sum;
+
+
+
+
+
+v.hold_tnt_time=v.hold_tnt_time+1;
+v.tnt_state=v.hold_tnt_time>20?(math.pow(-1,v.tnt_state)+1)/2:v.tnt_state;
+v.hold_tnt_time=v.hold_tnt_time>20?0:v.hold_tnt_time;
+
+
+
+
+
+v.is_carry_main&&ctrl.run ? {
+    ctrl.set_animation('molang&arm:carry_block:run:main');
+    return ctrl.state_continue;
+};
+
+
+v.is_carry_main&&(ysm.ground_speed2>v.run_speek?1:0)&&ctrl.jump ? {
+    ctrl.set_animation('molang&arm:carry_block:run:jump');
+    return ctrl.state_continue;
+};
+
+
+
+
+
+
+ctrl.sleep ? {
+
+    
+
+    fn.SleepMain;
+
+v.sleep_main1 ? {
+    ctrl.set_animation('molang&sleep1');
+    return ctrl.state_continue;
+};
+
+v.sleep_main2 ? {
+    ctrl.set_animation('molang&sleep2');
+    return ctrl.state_continue;
+};
+
+v.sleep_main3 ? {
+    ctrl.set_animation('molang&sleep3');
+    return ctrl.state_continue;
+};
+
+v.sleep_main4 ? {
+    ctrl.set_animation('molang&sleep4');
+    return ctrl.state_continue;
+};
+
+v.sleep_main5 ? {
+    ctrl.set_animation('molang&sleep5');
+    return ctrl.state_continue;
+};
+};
+
+//一个用于检测轮盘打断情况的函数
+fn.extra_break;
+
+//到处睡觉轮盘动画
+((v.extra==9?1:0)&&!ctrl.sleep) ? {
+    
+    fn.SleepExtra;
+    
+v.sleep_extra1 ? {
+    ctrl.set_animation('molang&extra:sleep1');
+    return ctrl.state_continue;
+    
+    
+};
+
+(v.sleep_extra2&&ctrl.fly) ? {
+    v.test=101;
+    ctrl.set_animation('molang&extra:fly_sleep2');
+    return ctrl.state_continue;
+    return ctrl.state_stop;
+    
+};
+
+(v.sleep_extra2&&!ctrl.fly) ? {
+    
+    
+    ctrl.set_animation('molang&extra:sleep2');
+    return ctrl.state_continue;
+    
+};
+    
+    
+    
+
+
+v.sleep_extra3 ? {
+    ctrl.set_animation('molang&extra:sleep3');
+    return ctrl.state_continue;
+    
+    
+};
+
+v.sleep_extra4 ? {
+    ctrl.set_animation('molang&extra:sleep4');
+    return ctrl.state_continue;
+    
+    
+};
+
+v.sleep_extra5 ? {
+    ctrl.set_animation('molang&extra:sleep5');
+    return ctrl.state_continue;
+    
+    
+};
+
+};
+
+
+   
+
+
+
+
+// Dooble
+(v.extra==11?1:0) ? {
+    ctrl.set_animation('molang&extra:dooble');
+    return ctrl.state_continue;
+
+   
+};
+
+//三分麦霸
+(v.extra==12?1:0) ? {
+    ctrl.set_animation('molang&extra:sanfenmaiba');
+    return ctrl.state_continue;
+
+    v.music_config ? {
+        ctrl.set_animation('molang&extra:sanfenmaiba:music');
+        return ctrl.state_continue;
+    };
+};
+
+return ctrl.state_bypass;

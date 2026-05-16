@@ -1,0 +1,122 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"player.post_main": {
+			"states": {
+				"default": {
+					"animations": ["new_idle_empty"],
+					"transitions": [
+						{
+							"idle1": "v.next_idle == 1 && ctrl.idle && !ctrl.playing_extra_animation"
+						},
+						{
+							"idle2": "v.next_idle == 2 && ctrl.idle && !ctrl.playing_extra_animation"
+						},
+						{
+							"idle3": "v.next_idle == 3 && ctrl.idle && !ctrl.playing_extra_animation"
+						},
+						{
+							"idle4": "v.next_idle == 4 && ctrl.idle && !ctrl.playing_extra_animation"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"idle1": {
+					"animations": ["new_idle_1"],
+					"on_exit": ["v.next_idle = 0;"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished || !ctrl.idle || ctrl.playing_extra_animation"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"idle2": {
+					"animations": ["new_idle_2"],
+					"on_exit": ["v.next_idle = 0;"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished || !ctrl.idle || ctrl.playing_extra_animation"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"idle3": {
+					"animations": ["new_idle_3"],
+					"on_exit": ["v.next_idle = 0;"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished || !ctrl.idle || ctrl.playing_extra_animation"
+						}
+					],
+					"blend_transition": 0.2
+				},
+				"idle4": {
+					"animations": ["new_idle_4"],
+					"on_exit": ["v.next_idle = 0;"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished || !ctrl.idle || ctrl.playing_extra_animation"
+						}
+					],
+					"blend_transition": 0.2
+				}
+			}
+		},
+		"player.post_swing": {
+			"states": {
+				"方块挥舞（跑）": {
+					"animations": ["arm:carry_block:run:main_swing"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"方块挥舞": {
+					"animations": ["arm:carry_block:swing"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"default": {
+					"animations": ["swing:axe_empty"],
+					"transitions": [
+						{
+							"挥舞斧头": "v.swing_axe&&ysm.mouse(0)"
+						},
+						{
+							"方块挥舞": "(ysm.mouse(0)||ysm.mouse(1))&&(v.is_carry_main||v.is_carry_off)&&!ctrl.run"
+						},
+						{
+							"方块挥舞（跑）": "(ysm.mouse(0)||ysm.mouse(1))&&(v.is_carry_main||v.is_carry_off)&&(ctrl.run||!((ysm.ground_speed2>v.run_speek?1:0)&&ctrl.jump))"
+						}
+					]
+				},
+				"挥舞斧头": {
+					"animations": ["swing:axe_while"],
+					"on_exit": ["v.swing_axe=0;"],
+					"transitions": [
+						{
+							"放下斧头": "!ysm.mouse(0)&&q.all_animations_finished||!ctrl.hold('mainhand', '#yes_steve_model:axes')"
+						}
+					],
+					"blend_transition": 0.05
+				},
+				"放下斧头": {
+					"animations": ["swing:axe_end"],
+					"transitions": [
+						{
+							"default": "q.all_animations_finished||v.swing_axe||!ctrl.hold('mainhand', '#yes_steve_model:axes')"
+						}
+					],
+					"blend_transition": 0.05
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+v.tag_block_main=query.equipped_item_any_tag('mainhand','forge:stone','minecraft:dirt','forge:storage_blocks','minecraft:logs');
+v.tag_block_off=query.equipped_item_any_tag('offhand','forge:stone','minecraft:dirt','forge:storage_blocks','minecraft:logs');
+v.tag_block_main2=query.is_item_name_any('mainhand','minecraft:tnt');
+v.tag_block_off2=query.is_item_name_any('offhand','minecraft:tnt');
+v.tag_air_main=ctrl.hold('mainhand','$minecraft:air');
+v.tag_air_off=ctrl.hold('offhand','$minecraft:air');
+

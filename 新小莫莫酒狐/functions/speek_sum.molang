@@ -1,0 +1,2 @@
+v.walk_speek=ctrl.walk?ysm.ground_speed2:v.walk_speek;
+v.run_speek=ctrl.run?ysm.ground_speed2:v.run_speek;

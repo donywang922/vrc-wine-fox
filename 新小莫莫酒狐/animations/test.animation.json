@@ -1,0 +1,107 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"test:carry_block": {
+			"loop": true,
+			"animation_length": 0.1667,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-15, 0, 0]
+				},
+				"Head": {
+					"rotation": [11.5, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-25, 5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				},
+				"LeftHandLocator": {
+					"rotation": [-48.81455, -11.68818, 7.25467],
+					"position": [-3.68908, 3.99735, -7.59509],
+					"scale": 6
+				},
+				"RightArm": {
+					"rotation": [-25, -5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHand": {
+					"rotation": [0, 0, 0]
+				},
+				"RightHandLocator": {
+					"rotation": [-48.81455, 11.68818, -7.25467],
+					"position": [3.68908, 3.99735, -7.59509],
+					"scale": 6
+				},
+				"clothe": {
+					"rotation": [12.5, 0, 0]
+				},
+				"bone": {
+					"position": [0, -1.025, 0]
+				}
+			}
+		},
+		"test:carry_block2": {
+			"loop": true,
+			"animation_length": 0.1667,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-15, 0, 0]
+				},
+				"Head": {
+					"rotation": [11.5, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-25, 5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				},
+				"LeftHandLocator": {
+					"rotation": [-48.81455, -11.68818, 7.25467],
+					"position": [-3.68908, 3.99735, -7.59509],
+					"scale": 6
+				},
+				"RightArm": {
+					"rotation": [-25, -5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHand": {
+					"rotation": [0, 0, 0]
+				},
+				"RightHandLocator": {
+					"rotation": [-48.81455, 11.68818, -7.25467],
+					"position": [3.68908, 3.99735, -7.59509],
+					"scale": 6
+				},
+				"clothe": {
+					"rotation": [12.5, 0, 0]
+				},
+				"bone": {
+					"position": [0, -1.025, 0]
+				}
+			}
+		}
+	}
+}

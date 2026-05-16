@@ -1,0 +1,3 @@
+fn.is_blocktag;
+
+v.is_carry_main=(v.tag_block_main||v.tag_block_main2)&&(v.tag_air_off||ctrl.hold('offhand','$minecraft:flint_and_steel'));

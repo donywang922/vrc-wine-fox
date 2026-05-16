@@ -1,0 +1,7 @@
+
+
+ctrl.hold('offhand','$minecraft:flint_and_steel')&&ctrl.hold('mainhand','$minecraft:tnt')?
+{
+    ctrl.set_animation('molang&arm:carry_block:main:tnt_start');
+    return ctrl.state_continue;
+};

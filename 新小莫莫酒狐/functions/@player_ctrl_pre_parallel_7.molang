@@ -1,0 +1,5 @@
+ctrl.hold('offhand','$minecraft:flint_and_steel')&&ctrl.hold('mainhand','$minecraft:tnt')&&(ctrl.jump||ctrl.run)?
+{
+    ctrl.set_animation('molang&parallel:carry_block:main:tnt_StarEyes');
+    return ctrl.state_continue;
+};

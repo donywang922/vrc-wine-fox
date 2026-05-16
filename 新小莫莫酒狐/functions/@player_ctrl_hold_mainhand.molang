@@ -1,0 +1,11 @@
+
+fn.is_carry_main;
+
+v.is_carry_main == 1 ? {
+    ctrl.set_animation('molang&arm:carry_block:main');
+    return ctrl.state_continue;
+};
+
+
+
+return ctrl.state_bypass;
