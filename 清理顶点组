@@ -1,0 +1,35 @@
+import bpy
+
+def clean_empty_vertex_groups():
+    total_removed = 0
+    
+    # 遍历当前场景中的所有物体
+    for obj in bpy.context.scene.objects:
+        # 仅处理包含顶点组的网格物体
+        if obj.type != 'MESH' or not obj.vertex_groups:
+            continue
+            
+        used_vg_indices = set()
+        
+        # 遍历物体的所有顶点，提取它们所属的顶点组索引
+        # g.group 返回的是对应顶点组在 obj.vertex_groups 中的 index
+        for v in obj.data.vertices:
+            for g in v.groups:
+                used_vg_indices.add(g.group)
+                
+        # 收集需要删除的空顶点组
+        # 采用先收集后删除的策略，避免在遍历列表时修改列表导致索引错乱
+        groups_to_remove = []
+        for vg in obj.vertex_groups:
+            if vg.index not in used_vg_indices:
+                groups_to_remove.append(vg)
+                
+        # 执行删除操作
+        for vg in groups_to_remove:
+            obj.vertex_groups.remove(vg)
+            total_removed += 1
+            
+    print("清理完成，共移除了 %d 个空顶点组。" % total_removed)
+
+if __name__ == "__main__":
+    clean_empty_vertex_groups()
