@@ -1,0 +1,26 @@
+import bpy
+
+def add_all_vertices_to_group(group_name="All_Vertices"):
+    # 获取当前选中的所有网格物体
+    selected_meshes = [obj for obj in bpy.context.selected_objects if obj.type == 'MESH']
+    
+    if not selected_meshes:
+        print("错误：请至少选中一个网格物体！")
+        return
+        
+    for obj in selected_meshes:
+        # 创建新的顶点组
+        vg = obj.vertex_groups.new(name=group_name)
+        
+        # 获取该网格体的所有顶点索引
+        vertex_indices = [v.index for v in obj.data.vertices]
+        
+        # 将所有顶点分配给该顶点组，权重设为 1.0
+        # 'REPLACE' 模式意味着如果顶点已经在组内，会替换其权重（此处为新建组，直接添加）
+        vg.add(vertex_indices, 1.0, 'REPLACE')
+        
+    print(f"成功为 {len(selected_meshes)} 个物体添加了名为 '{group_name}' 的顶点组！")
+
+if __name__ == "__main__":
+    # 你可以在这里修改生成的顶点组名称
+    add_all_vertices_to_group("LeftEye")
