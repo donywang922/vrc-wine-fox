@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "\u52A8\u4F5C_\u5750\u59FF"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 8aacf18645beb6246be96a682438f902, type: 2}
+  controls:
+  - name: "\u4E3E\u624B"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 102
+    parameter:
+      name: VRCEmote
+    value: 9
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u9F13\u638C"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 102
+    parameter:
+      name: VRCEmote
+    value: 10
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u6307"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 101
+    parameter:
+      name: VRCEmote
+    value: 11
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u5927\u7B11"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 101
+    parameter:
+      name: VRCEmote
+    value: 12
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u6253\u9F13"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 102
+    parameter:
+      name: VRCEmote
+    value: 13
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u6325\u62F3"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 101
+    parameter:
+      name: VRCEmote
+    value: 14
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u53CD\u5BF9"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 101
+    parameter:
+      name: VRCEmote
+    value: 15
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u6000\u7591"
+    icon: {fileID: 2800000, guid: d7e7209d163851f4095b39ad3acef6eb, type: 3}
+    type: 101
+    parameter:
+      name: VRCEmote
+    value: 16
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []

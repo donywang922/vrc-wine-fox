@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "\u773C\u775B"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 8aacf18645beb6246be96a682438f902, type: 2}
+  controls:
+  - name: "\u624B\u52BF"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: eye
+    value: 100
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u76B1\u7709"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: eye
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u534A\u7741"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: eye
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u7A7A\u6D1E"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: eye
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u7B11"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: eye
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u65E0\u795E"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: eye
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u661F\u661F"
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: eye
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: "\u66F4\u591A"
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a5b815d6ee67b4f4a958b3bd96a0dd0f, type: 2}
+    subParameters: []
+    labels: []

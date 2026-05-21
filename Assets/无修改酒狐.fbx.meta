@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: 8c1b2f098d98a7148b61f44caacd3f5e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'MRoot|attacked' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'MHead' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'MRoot|climb' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'MHead' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|death' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra1' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra2' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra3' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra6' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra7' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra:changyeyao1' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MUpBody'
+      has translation animation that will be discarded.\n\t'MHead' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra:changyeyao2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MUpBody'
+      has translation animation that will be discarded.\n\t'MHead' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra:dooble:empty' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Mouth_cute_laugh'
+      has translation animation that will be discarded.\n\nClip 'MRoot|extra:huhuyao:empty'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|extra:sanfenmaiba:empty' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'MUpBody' has translation animation that will be discarded.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      has translation animation that will be discarded.\n\t'DownBody' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|idle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|jump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|keyboard' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|ladder_up' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|molang&extra:dooble' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Mouth_cute_laugh' has translation animation that will be discarded.\n\nClip
+      'MRoot|molang&extra:huhuyao1' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'MHead' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'DownBody' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'MRoot|molang&extra:huhuyao2'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|molang&extra:huhuyao3' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'MHead' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'DownBody' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'MRoot|molang&extra:sanfenmaiba'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MUpBody'
+      has translation animation that will be discarded.\n\t'MHead' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      has translation animation that will be discarded.\n\t'DownBody' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|new_idle_2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|new_idle_3' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|new_idle_4' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|run' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|sneak' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|swim' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|swim_stand' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|use_mainhand:gohei' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'MRoot|walk' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: MAllbody
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLowerLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLowerLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MUpBody
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MUpperBody
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: AllHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: "\u65E0\u4FEE\u6539\u9152\u72D0(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MRoot
+      parentName: "\u65E0\u4FEE\u6539\u9152\u72D0(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: MRoot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.70709574, y: 0.003949554, z: 0.0039495556, w: 0.70709586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MAllbody
+      parentName: Root
+      position: {x: 4.0800694e-17, y: 0.015625, z: 0.0000000011920929}
+      rotation: {x: -0.005585266, y: -0.00000014831781, z: 0.99998444, w: 2.3283062e-10}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MUpBody
+      parentName: MAllbody
+      position: {x: -5.231926e-17, y: 0.0033125007, z: -2.9802424e-10}
+      rotation: {x: 0.99678975, y: -0.000000002222329, z: -0.00000008854884, w: -0.08006391}
+      scale: {x: 1, y: 1, z: 1.0000025}
+    - name: MTail
+      parentName: MUpBody
+      position: {x: 4.85811e-11, y: 0.0015399219, z: 0.0007834299}
+      rotation: {x: 0.7872735, y: -0.00000008386232, z: -0.00000015545453, w: 0.6166039}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Tail2
+      parentName: MTail
+      position: {x: -3.4805225e-12, y: 0.0032324858, z: 3.8327924e-10}
+      rotation: {x: -0.7511268, y: 0.000000080292004, z: 0.00000015896288, w: 0.6601579}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Tail3
+      parentName: Tail2
+      position: {x: 3.675318e-12, y: 0.0043531237, z: 0.0000000011103111}
+      rotation: {x: 0.224419, y: 0.000000014707563, z: -0.000000016862732, w: 0.9744927}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Tail4
+      parentName: Tail3
+      position: {x: 3.2616752e-12, y: 0.0058713765, z: 3.1723174e-10}
+      rotation: {x: -0.50508285, y: -0.00000002548118, z: 0.00000004496449, w: 0.86307085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail5
+      parentName: Tail4
+      position: {x: 4.4761347e-12, y: 0.0009882109, z: 9.0578395e-10}
+      rotation: {x: -0.16018172, y: 0.00000002933432, z: 0.000000014540742, w: 0.98708755}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail6
+      parentName: Tail5
+      position: {x: -1.485958e-11, y: 0.0018749959, z: 0.0000000011994415}
+      rotation: {x: -0.08980069, y: -1.3540633e-10, z: 0.000000005193173, w: 0.99595976}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Tail7
+      parentName: Tail6
+      position: {x: -6.4981263e-12, y: 0.001746944, z: 0.0000000010674194}
+      rotation: {x: -0.000000014904801, y: -1.2748293e-10, z: -2.4454394e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: MUpperBody
+      parentName: MUpBody
+      position: {x: -2.6400663e-11, y: 0.0026310813, z: -0.00042541078}
+      rotation: {x: -0.18991788, y: 0.0080475155, z: 0.0068508033, w: 0.9817431}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: bow
+      parentName: MUpperBody
+      position: {x: 0.000027043017, y: 0.0005761977, z: -0.0016317572}
+      rotation: {x: 0.056286186, y: -0.0564465, z: -0.069646284, w: 0.9943818}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: bowL1
+      parentName: bow
+      position: {x: 0.0004065678, y: 0.00007619501, z: 0.000011344203}
+      rotation: {x: 0.9786886, y: 0.11016207, z: 0.006487693, w: -0.17317866}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.000001}
+    - name: bowL2
+      parentName: bowL1
+      position: {x: -0, y: 0.0017466497, z: -1.5366822e-10}
+      rotation: {x: -0.000000016298145, y: -0.00000017648563, z: 0.000000013038515,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bowR1
+      parentName: bow
+      position: {x: -0.0004065676, y: -0.000007875743, z: -0.000011344349}
+      rotation: {x: 0.9841154, y: -0.023520164, z: -0.14325121, w: -0.102189876}
+      scale: {x: 0.9999997, y: 1, z: 0.99999803}
+    - name: bowR2
+      parentName: bowR1
+      position: {x: 2.6077032e-10, y: 0.0018487776, z: -9.313225e-11}
+      rotation: {x: -0.0000000013969836, y: 0.00000037439162, z: -0.000000006053596,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: AllHead
+      parentName: MUpperBody
+      position: {x: 0.000055564018, y: 0.0041060923, z: 0.0009267772}
+      rotation: {x: 0.110705994, y: -0.0074731265, z: -0.007473118, w: 0.993797}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: MHead
+      parentName: AllHead
+      position: {x: -1.110223e-18, y: 0.0006249988, z: 5.5879287e-11}
+      rotation: {x: -0.33802536, y: 0.08636769, z: 0.086367674, w: 0.9331774}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: happy
+      parentName: MHead
+      position: {x: -0.000109406166, y: 0.00030714957, z: 0.000896655}
+      rotation: {x: 0.00000030035153, y: 0.00000016763806, z: -0.000000050291423,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: LeftEyebrow
+      parentName: MHead
+      position: {x: 0.0023826961, y: 0.0022330892, z: -0.00023717446}
+      rotation: {x: 0.00000034226105, y: 0.00000015459955, z: -2.2338465e-21, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RightEyebrow
+      parentName: MHead
+      position: {x: -0.0011038255, y: 0.0030222083, z: -0.0006066271}
+      rotation: {x: 0.0000003343448, y: 0.00000016391277, z: -0.0000001192093, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: LeftEyelid
+      parentName: MHead
+      position: {x: 0.0020274022, y: 0.0015307164, z: -0.00066430215}
+      rotation: {x: -0.3151986, y: -0.0073744124, z: -0.107233614, w: 0.94291914}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: LeftEyelidBase
+      parentName: LeftEyelid
+      position: {x: -0.000108200504, y: 0.00007442159, z: 0.0003039308}
+      rotation: {x: -0.76388454, y: 0.026393909, z: 0.12450927, w: 0.63267785}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: LeftEyePublic
+      parentName: LeftEyelidBase
+      position: {x: -0.00008028157, y: 0.000010204855, z: -0.000089395886}
+      rotation: {x: -0.00000007497147, y: 0.000000098953024, z: 0.000000009255018,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: LeftEyeDot
+      parentName: LeftEyelidBase
+      position: {x: 0.000080261976, y: 0.011685386, z: 0.000089403555}
+      rotation: {x: 0.0000000023283064, y: 0.00000010780059, z: 0.0000012421514, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: LeftEyelid_kongb
+      parentName: LeftEyelid
+      position: {x: 0.00010820031, y: 0.0009715037, z: -0.0003039311}
+      rotation: {x: 0.000000026149793, y: -0.0000000044237827, z: -0.00000004217145,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: RightEyelid
+      parentName: MHead
+      position: {x: -0.0010043555, y: 0.0022169068, z: -0.0009855656}
+      rotation: {x: -0.31519857, y: -0.02056948, z: -0.13541724, w: 0.9390894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightEyelidBase
+      parentName: RightEyelid
+      position: {x: 0.000108200264, y: 0.00007442265, z: 0.00030392926}
+      rotation: {x: -0.76475227, y: 0.004330636, z: 0.14241248, w: 0.62837404}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999997}
+    - name: RightEyePublic
+      parentName: RightEyelidBase
+      position: {x: 0.000040868035, y: -0.00001377647, z: -0.00011260988}
+      rotation: {x: -0.00000015227124, y: 0.000000019092113, z: -4.6566126e-10, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RightEyeDot
+      parentName: RightEyelidBase
+      position: {x: -0.00004085939, y: 0.011694384, z: 0.00011260863}
+      rotation: {x: 0.0000000018626451, y: 0.000000012805686, z: -6.402843e-10, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RightEyelid_kongb
+      parentName: RightEyelid
+      position: {x: -0.00010820053, y: 0.0009715044, z: -0.00030393043}
+      rotation: {x: -0.00000009321639, y: 0.000000008090865, z: -0.00000012571401,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Expression_8
+      parentName: MHead
+      position: {x: 0.0006395739, y: 0.0017821318, z: 0.001905219}
+      rotation: {x: 0.0000003697351, y: 0.00000017136337, z: -0.00000003539026, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Expression_7
+      parentName: MHead
+      position: {x: 0.0006395739, y: 0.0017821318, z: 0.001905219}
+      rotation: {x: 0.0000003697351, y: 0.00000017136337, z: -0.00000003539026, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Expression_6
+      parentName: MHead
+      position: {x: -0.012691385, y: 0.003519204, z: -0.00038462973}
+      rotation: {x: 0.0000003515743, y: 0.00000013597311, z: 0.0000006258488, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Expression_5
+      parentName: MHead
+      position: {x: 0.0003108482, y: 0.001029804, z: -0.000733898}
+      rotation: {x: 0.00000030128288, y: 0.00000016763806, z: -0.00000006146729, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Expression_4
+      parentName: MHead
+      position: {x: 0.0003108482, y: 0.001029804, z: -0.000733898}
+      rotation: {x: 0.00000030128288, y: 0.00000016763806, z: -0.00000006146729, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Expression_3
+      parentName: MHead
+      position: {x: 0.00051578117, y: 0.0016004592, z: -0.0014489773}
+      rotation: {x: 0.00000037206343, y: 0.00000017881395, z: -0.000000057742007,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Expression_2
+      parentName: MHead
+      position: {x: 0.0006317326, y: 0.0018788322, z: -0.0011886844}
+      rotation: {x: 0.0000003357418, y: 0.00000017508866, z: -0.00000012107195, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Expression_1
+      parentName: MHead
+      position: {x: 0.0005931811, y: 0.0015951225, z: -0.0014308579}
+      rotation: {x: 0.0000003017485, y: 0.0000001769513, z: -0.000000063329935, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Mouth_maozui
+      parentName: MHead
+      position: {x: 0.00030016573, y: 0.0009368201, z: -0.00097079406}
+      rotation: {x: 0.00000037066644, y: 0.00000016577542, z: -0.00000005960465, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Mouth_sanfenmaiba
+      parentName: MHead
+      position: {x: 0.00040009382, y: 0.0012019913, z: -0.0011286272}
+      rotation: {x: 0.00000041723257, y: 0.00000017695132, z: -0.000000057742007,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Mouth_cute_laugh
+      parentName: MHead
+      position: {x: 0.0003569889, y: 0.0012232587, z: -0.0012064342}
+      rotation: {x: 0.02290981, y: 0.0010147475, z: 0.98971486, w: 0.14120401}
+      scale: {x: 1.0000007, y: 1, z: 1}
+    - name: bone3
+      parentName: Mouth_cute_laugh
+      position: {x: -0.00020529788, y: 0.00036079405, z: 0.00011965111}
+      rotation: {x: 0.005214395, y: 0.04741586, z: 0.05384091, w: 0.9974095}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: bone2
+      parentName: Mouth_cute_laugh
+      position: {x: 0.00020529743, y: 0.00011328279, z: -0.000119648575}
+      rotation: {x: -0.0052149384, y: -0.047415886, z: -0.053840954, w: 0.9974095}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Mouth_xie
+      parentName: MHead
+      position: {x: 0.00031045885, y: 0.0009656932, z: -0.0010062568}
+      rotation: {x: 0.0000003697351, y: 0.00000016763806, z: -0.00000004842878, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Mouth_n
+      parentName: MHead
+      position: {x: 0.0002449263, y: 0.0011683481, z: -0.0009428956}
+      rotation: {x: 0.00000037020075, y: 0.00000016391277, z: -0.000000057742007,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Mouth_smile2
+      parentName: MHead
+      position: {x: 0.0005189938, y: 0.0016241006, z: -0.0014287963}
+      rotation: {x: 0.0000004414469, y: 0.00000017508864, z: -0.00000008009374, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mouth_smile
+      parentName: MHead
+      position: {x: 0.00037854287, y: 0.0012154853, z: -0.0009761302}
+      rotation: {x: 0.00000037206343, y: 0.00000017881395, z: -0.000000057742007,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Mouth_surprise
+      parentName: MHead
+      position: {x: 0.0006253076, y: 0.0018315515, z: -0.0012290453}
+      rotation: {x: 0.000000347849, y: 0.0000001769513, z: -0.00000005960465, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Mouth_chill
+      parentName: MHead
+      position: {x: 0.0004559431, y: 0.0012101523, z: -0.00095800735}
+      rotation: {x: 0.00000041723257, y: 0.00000017695132, z: -0.000000057742007,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: RightSideHair
+      parentName: MHead
+      position: {x: -0.0019405171, y: 0.004433148, z: 0.0013360876}
+      rotation: {x: 0.00000044144687, y: 0.00000017881392, z: -0.00000008009374, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftSideHair
+      parentName: MHead
+      position: {x: 0.003334644, y: 0.0032391974, z: 0.0018950744}
+      rotation: {x: 0.0000004451722, y: 0.00000017881396, z: 0.0000000018626454, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Bangs
+      parentName: MHead
+      position: {x: 0.0010002742, y: 0.0048285727, z: 0.00087387016}
+      rotation: {x: 0.00000036368147, y: 0.00000016205013, z: -0.00000008195639, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: FLongHair
+      parentName: MHead
+      position: {x: -0.00077678595, y: -0.002483105, z: 0.0020268098}
+      rotation: {x: 0.95833784, y: -0.093336776, z: 0.07878373, w: -0.2582054}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: LongHair2
+      parentName: FLongHair
+      position: {x: 3.557261e-12, y: 0.0028220408, z: -1.3871612e-10}
+      rotation: {x: -0.08715562, y: 0.00000053750375, z: 0.0000000768542, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FLongRightHair
+      parentName: MHead
+      position: {x: -0.0034034406, y: -0.0007379216, z: 0.0014474192}
+      rotation: {x: 0.95790005, y: -0.06337772, z: 0.14264719, w: -0.24096179}
+      scale: {x: 1, y: 1, z: 1.0000011}
+    - name: LongRightHair2
+      parentName: FLongRightHair
+      position: {x: 4.842877e-10, y: 0.002940159, z: 7.8231094e-10}
+      rotation: {x: 0.00000003934838, y: 0.0000005555339, z: 0.000000011175871, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: FLongLeftHair
+      parentName: MHead
+      position: {x: 0.0024001794, y: -0.0020514838, z: 0.0020624036}
+      rotation: {x: 0.9578999, y: -0.12407844, z: 0.012994621, w: -0.2585797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LongLeftHair2
+      parentName: FLongLeftHair
+      position: {x: -5.0291415e-10, y: 0.0029401572, z: 0.0000000010430813}
+      rotation: {x: -0.000000010943041, y: 0.00000047171494, z: 0.000000011175872,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Ear
+      parentName: MHead
+      position: {x: -0.001285, y: 0.0046920883, z: 0.0016550873}
+      rotation: {x: 0.08643994, y: -0.3144091, z: -0.6464664, w: 0.6897509}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: Left_ear
+      parentName: Ear
+      position: {x: 0.00052276714, y: 0.0046191923, z: -0.0012832286}
+      rotation: {x: -0.5878729, y: 0.0030601854, z: 0.80879575, w: -0.015668653}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: Right_ear
+      parentName: Ear
+      position: {x: -0.0005227629, y: 0.00043465555, z: 0.0012832177}
+      rotation: {x: -0.36560568, y: 0.89264375, z: 0.26319975, w: 0.01566871}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: Mask
+      parentName: MHead
+      position: {x: 0.0040737847, y: 0.0016055172, z: 0.0017849122}
+      rotation: {x: -0.036599126, y: -0.5375235, z: -0.38325533, w: 0.75022954}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Arm
+      parentName: MUpperBody
+      position: {x: -0.000082606944, y: 0.0031327796, z: 0.00070497714}
+      rotation: {x: -0.44154596, y: -0.44154555, z: -0.5597247, w: 0.5447779}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: LeftArm
+      parentName: Arm
+      position: {x: 2.193974e-10, y: 0.0021562502, z: 7.188612e-11}
+      rotation: {x: -0.009859709, y: -0.699242, z: 0.009307856, w: 0.7147565}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999998}
+    - name: LeftForeArm
+      parentName: LeftArm
+      position: {x: -3.76167e-11, y: 0.00344613, z: 6.0652383e-10}
+      rotation: {x: -0.013761188, y: 0.006827816, z: -0.0071491236, w: 0.9998565}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: LeftHand
+      parentName: LeftForeArm
+      position: {x: -1.4901161e-10, y: 0.0033225673, z: 2.3283064e-10}
+      rotation: {x: 0.009142225, y: -0.016307792, z: 0.016307931, w: 0.9996922}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: LeftHandLocator
+      parentName: LeftHand
+      position: {x: 5.5151758e-11, y: 0.0012499999, z: -1.0710209e-10}
+      rotation: {x: 0.0000000011641531, y: -0.000000023981555, z: -0.00000018077479,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: RightArm
+      parentName: Arm
+      position: {x: -1.9736944e-10, y: -0.0019062504, z: -7.188661e-11}
+      rotation: {x: -0.68857366, y: -0.009697286, z: 0.7250248, w: 0.010546026}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.99999964}
+    - name: RightForeArm
+      parentName: RightArm
+      position: {x: -2.2788299e-10, y: 0.003446127, z: 6.938353e-10}
+      rotation: {x: -0.01376118, y: -0.006828028, z: 0.0071491427, w: 0.9998565}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: RightHand
+      parentName: RightForeArm
+      position: {x: 9.412179e-10, y: 0.0033225657, z: 1.11758706e-10}
+      rotation: {x: 0.009142227, y: 0.0163078, z: -0.016307864, w: 0.9996922}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: RightHandLocator
+      parentName: RightHand
+      position: {x: -7.3123375e-11, y: 0.0012500009, z: -9.313225e-11}
+      rotation: {x: -8.1490725e-10, y: 0.00000007955532, z: -0.00000006251503, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: clothe
+      parentName: MUpBody
+      position: {x: -2.2624142e-11, y: 0.0019206044, z: -0.00035801955}
+      rotation: {x: -0.3718042, y: 0.7065112, z: 0.6014528, w: -0.029292766}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: LeftClothe
+      parentName: clothe
+      position: {x: -0.0013455276, y: -0.0009257059, z: -0.0010489797}
+      rotation: {x: -0.31998685, y: 0.20465477, z: 0.7603218, w: 0.5269114}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: LF
+      parentName: LeftClothe
+      position: {x: -0.0007476897, y: -0.000053831634, z: -0.00056811544}
+      rotation: {x: 0.770673, y: 0.48949513, z: -0.3283312, w: -0.24219061}
+      scale: {x: 0.99999964, y: 0.9999994, z: 0.9999997}
+    - name: LF2
+      parentName: LF
+      position: {x: 1.3038516e-10, y: 0.002562499, z: -1.3038516e-10}
+      rotation: {x: 0.09586161, y: 0.036978673, z: -0.016333323, w: 0.9945735}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: LF3
+      parentName: LF2
+      position: {x: -3.352761e-10, y: 0.0042573498, z: -3.72529e-10}
+      rotation: {x: -0.000000018626453, y: 0.00000010244548, z: 0.000000007450581,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LB
+      parentName: LeftClothe
+      position: {x: 0.0007962109, y: 0.00034394814, z: 0.00051195733}
+      rotation: {x: 0.78050935, y: 0.5076408, z: -0.31543013, w: -0.18332982}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+    - name: LB2
+      parentName: LB
+      position: {x: -6.891787e-10, y: 0.002420507, z: 3.352761e-10}
+      rotation: {x: -0.017233795, y: 0.05531967, z: -0.053340975, w: 0.99689394}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: LB3
+      parentName: LB2
+      position: {x: -6.705522e-10, y: 0.0043575536, z: 5.9604643e-10}
+      rotation: {x: -0.00000003632158, y: 0.00000012805685, z: 0.000000024214387,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: LM
+      parentName: LeftClothe
+      position: {x: -0.00004852221, y: 0.00028833444, z: 0.00005615915}
+      rotation: {x: 0.77119607, y: 0.48834425, z: -0.3306844, w: -0.23963381}
+      scale: {x: 0.9999999, y: 0.99999964, z: 0.99999976}
+    - name: LM2
+      parentName: LM
+      position: {x: -5.605398e-10, y: 0.0026235122, z: 5.3551046e-11}
+      rotation: {x: 0.0068167658, y: 0.028175049, z: -0.027348546, w: 0.9992056}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: LM3
+      parentName: LM2
+      position: {x: -4.324829e-10, y: 0.0044127847, z: -6.542541e-10}
+      rotation: {x: -0.000000010099028, y: 0.000000018510036, z: 0.00000003898458,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: RightClothe
+      parentName: clothe
+      position: {x: 0.0014964701, y: 0.0010219746, z: 0.000985262}
+      rotation: {x: -0.302085, y: 0.44061866, z: 0.81644267, w: 0.21913736}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RM
+      parentName: RightClothe
+      position: {x: 0.000069693226, y: 0.00017224751, z: 0.000047560672}
+      rotation: {x: 0.9003412, y: 0.12220041, z: -0.39768252, w: -0.1276769}
+      scale: {x: 1, y: 1, z: 1.0000007}
+    - name: RM2
+      parentName: RM
+      position: {x: 3.0326192e-10, y: 0.0026100762, z: 2.3283063e-11}
+      rotation: {x: -0.003144858, y: 0.011375317, z: -0.010933236, w: 0.9998706}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: RM3
+      parentName: RM2
+      position: {x: 9.703217e-10, y: 0.004473009, z: 4.8894434e-11}
+      rotation: {x: 0.000000006664777, y: 0.000000030966476, z: 0.000000020954758,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RB
+      parentName: RightClothe
+      position: {x: 0.0004720081, y: -0.00032698901, z: 0.0007215962}
+      rotation: {x: 0.9196936, y: 0.1626845, z: -0.34995884, w: -0.072292894}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000008}
+    - name: RB2
+      parentName: RB
+      position: {x: 6.705522e-10, y: 0.002325972, z: -3.7252902e-11}
+      rotation: {x: -0.012557043, y: 0.008947556, z: -0.0052162213, w: 0.99986756}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: RB3
+      parentName: RB2
+      position: {x: 1.4901161e-10, y: 0.0043932623, z: 4.842877e-10}
+      rotation: {x: 0.000000025844201, y: 0.000000017462298, z: 0.0000000046566133,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RF
+      parentName: RightClothe
+      position: {x: -0.00054169906, y: 0.00024877756, z: -0.00076915807}
+      rotation: {x: 0.905298, y: 0.14057663, z: -0.3735574, w: -0.14535673}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: RF2
+      parentName: RF
+      position: {x: -4.842877e-10, y: 0.0025879305, z: -4.842877e-10}
+      rotation: {x: 0.07127429, y: -0.009691581, z: -0.0075102607, w: 0.9973814}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: RF3
+      parentName: RF2
+      position: {x: 4.4703483e-10, y: 0.0043182108, z: 1.4901161e-10}
+      rotation: {x: 0.000000006519259, y: -0.000000007916242, z: -0.000000020489097,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: BackClothe
+      parentName: clothe
+      position: {x: -0.00067441224, y: 0.0013606843, z: -0.0003612075}
+      rotation: {x: -0.36298063, y: 0.58766097, z: 0.6789972, w: 0.24872178}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: BR
+      parentName: BackClothe
+      position: {x: -0.0013035074, y: -0.00047130912, z: 0.00056350644}
+      rotation: {x: 0.95537823, y: 0.14507738, z: -0.21039122, w: 0.14812368}
+      scale: {x: 0.9999987, y: 0.9999999, z: 0.9999995}
+    - name: BR2
+      parentName: BR
+      position: {x: -3.7252902e-11, y: 0.0035749297, z: -1.11758706e-10}
+      rotation: {x: -0.011948065, y: -0.019382143, z: 0.016691798, w: 0.9996014}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: BR3
+      parentName: BR2
+      position: {x: -2.2351741e-10, y: 0.0029947862, z: -2.6077032e-10}
+      rotation: {x: -0.000000024214389, y: -0.000000067055225, z: 0.000000020489097,
+        w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: BL
+      parentName: BackClothe
+      position: {x: 0.0013225795, y: 0.0009622337, z: -0.0005632552}
+      rotation: {x: 0.9592328, y: 0.18458493, z: -0.17408888, w: 0.124474265}
+      scale: {x: 0.9999997, y: 1, z: 1}
+    - name: BL2
+      parentName: BL
+      position: {x: -3.7252902e-11, y: 0.0039871777, z: -4.6566126e-11}
+      rotation: {x: -0.0097326515, y: 0.15669356, z: -0.12766747, w: 0.9793128}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: BL3
+      parentName: BL2
+      position: {x: -3.72529e-10, y: 0.0030497147, z: -7.4505804e-11}
+      rotation: {x: 0.000000015832484, y: 0.0000003632158, z: -0.000000009313226,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BM
+      parentName: BackClothe
+      position: {x: -0.000019069515, y: 0.000058980444, z: -0.00000025171843}
+      rotation: {x: 0.956825, y: 0.20102829, z: -0.15751444, w: 0.13879015}
+      scale: {x: 0.9999995, y: 1, z: 0.9999999}
+    - name: BM2
+      parentName: BM
+      position: {x: -2.9351098e-12, y: 0.003596534, z: -1.6641934e-10}
+      rotation: {x: -0.010808313, y: -0.00000038587305, z: 0.000000003176841, w: 0.9999416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BM3
+      parentName: BM2
+      position: {x: 3.7060134e-12, y: 0.0031798494, z: 3.3458492e-10}
+      rotation: {x: 0.0000000066147554, y: -0.000000003020537, z: 1.0862955e-10, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: FrontClothe
+      parentName: clothe
+      position: {x: 0.00052346743, y: -0.0011546884, z: 0.00042493234}
+      rotation: {x: -0.02652216, y: 0.6486021, z: -0.5500245, w: 0.52543783}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: FL
+      parentName: FrontClothe
+      position: {x: 0.0013440168, y: 0.00007825227, z: -0.00044500566}
+      rotation: {x: 0.17729004, y: 0.20654458, z: -0.22254103, w: 0.93615335}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: FL1
+      parentName: FL
+      position: {x: -3.352761e-10, y: 0.0023943288, z: -7.4505804e-11}
+      rotation: {x: 0.018126806, y: -0.015664369, z: 0.023936568, w: 0.99942636}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: FL2
+      parentName: FL1
+      position: {x: -1.11758706e-10, y: 0.004403381, z: -7.4505804e-11}
+      rotation: {x: 0.000000032596294, y: -0.00000003073365, z: -0.000000013038517,
+        w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: FR
+      parentName: FrontClothe
+      position: {x: -0.0016258173, y: 0.000555756, z: 0.0004568615}
+      rotation: {x: 0.12378538, y: 0.11191149, z: -0.12700278, w: 0.9777645}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: FR1
+      parentName: FR
+      position: {x: 1.2340023e-10, y: 0.0025215878, z: -8.614734e-11}
+      rotation: {x: 0.07337406, y: -0.05824591, z: 0.065631725, w: 0.9934366}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: FR2
+      parentName: FR1
+      position: {x: -7.4505804e-11, y: 0.004380798, z: -3.72529e-10}
+      rotation: {x: -0.000000017229468, y: -0.00000015692785, z: -0.000000011175871,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FM
+      parentName: FrontClothe
+      position: {x: 0.000117690244, y: 0.0002890506, z: 0.00010550044}
+      rotation: {x: 0.1500721, y: 0.11007591, z: -0.13148026, w: 0.9736913}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: FM1
+      parentName: FM
+      position: {x: -2.3270275e-13, y: 0.0024045922, z: -1.1732482e-10}
+      rotation: {x: 0.028593542, y: 0.00000022263795, z: -0.0000000313278, w: 0.9995911}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: FM2
+      parentName: FM1
+      position: {x: -1.5409362e-12, y: 0.004377103, z: -2.219167e-11}
+      rotation: {x: 0.000000015042588, y: -1.4574009e-11, z: -2.025935e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FFM
+      parentName: FrontClothe
+      position: {x: 0.00016411387, y: 0.00016675839, z: -0.00011735596}
+      rotation: {x: 0.3185884, y: 0.093807325, z: -0.15623009, w: 0.93021166}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: FFM2_1
+      parentName: FFM
+      position: {x: 0.0016307418, y: 0.0026416793, z: -0.00044650852}
+      rotation: {x: 0.000000014150827, y: 0.00000019563595, z: 1.164153e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: FFM1
+      parentName: FFM
+      position: {x: -0.0001892984, y: -0.0002156872, z: 0.00030778773}
+      rotation: {x: -0.11288121, y: 0.012812863, z: -0.024957135, w: 0.9932124}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: FFM1_1
+      parentName: FFM1
+      position: {x: -9.3132255e-12, y: 0.0029514267, z: -3.250898e-10}
+      rotation: {x: 0.0000000018044366, y: 0.000000033760443, z: -0.0000000025611373,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: FFM3
+      parentName: FFM
+      position: {x: -0.0014414432, y: 0.00022254017, z: 0.00013872042}
+      rotation: {x: -0.15312153, y: -0.03876386, z: 0.06406161, w: 0.9853666}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: FFM3_1
+      parentName: FFM3
+      position: {x: 2.9802322e-10, y: 0.0028112018, z: -2.0489097e-10}
+      rotation: {x: -9.3132246e-10, y: -0.00000008568167, z: 0.0000000051222737, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: DownBody
+      parentName: MAllbody
+      position: {x: -3.3723022e-17, y: 0.0033125007, z: -2.9802363e-10}
+      rotation: {x: -0.00000008940696, y: 0.000000045634806, z: -7.133183e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLeg
+      parentName: DownBody
+      position: {x: 0.0015, y: 0.0004687488, z: -9.413597e-11}
+      rotation: {x: -0.0128086535, y: -0.013150082, z: 0.013150054, w: 0.9997451}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLowerLeg
+      parentName: LeftLeg
+      position: {x: 4.5110936e-11, y: 0.004815745, z: -1.3969838e-11}
+      rotation: {x: 0.07352803, y: 0.006189689, z: -0.007942939, w: 0.99724233}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: LeftFoot
+      parentName: LeftLowerLeg
+      position: {x: 7.5669956e-11, y: 0.005478351, z: 5.7742e-10}
+      rotation: {x: -0.000000014908437, y: 0.000000004132744, z: -0.000000001571607,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot_Shoe
+      parentName: LeftFoot
+      position: {x: -7.916242e-11, y: 1.862645e-10, z: -1.1874363e-10}
+      rotation: {x: 0.0000000074287527, y: -1.4551917e-10, z: -6.4028427e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightLeg
+      parentName: DownBody
+      position: {x: -0.0015, y: 0.0004687488, z: -1.846601e-11}
+      rotation: {x: -0.012808654, y: 0.013150104, z: -0.013150054, w: 0.9997451}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RightLowerLeg
+      parentName: RightLeg
+      position: {x: -6.3882906e-11, y: 0.0048157456, z: -2.3283064e-12}
+      rotation: {x: 0.07352803, y: -0.006189688, z: 0.007942939, w: 0.99724233}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: RightFoot
+      parentName: RightLowerLeg
+      position: {x: -6.8903314e-11, y: 0.005478351, z: 4.9429216e-10}
+      rotation: {x: -0.000000014886041, y: -0.000000003266905, z: 0.0000000023173923,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot_Shoe
+      parentName: RightFoot
+      position: {x: 8.039933e-11, y: 3.259629e-11, z: -1.3078534e-10}
+      rotation: {x: 0.000000007448648, y: -1.4551914e-11, z: 4.947651e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_0
+      parentName: "\u65E0\u4FEE\u6539\u9152\u72D0(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

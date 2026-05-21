@@ -2,7 +2,7 @@ import os
 import math
 from PIL import Image
 
-INPUT_DIRS = ["output_item_models", "objs"]
+INPUT_DIRS = ["selected_items", "objs"]
 OUTPUT_DIR = "output"
 
 

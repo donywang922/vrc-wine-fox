@@ -1,0 +1,63 @@
+import bpy
+
+def process_artillery_groups():
+    root_name = "炮弹"
+    root_obj = bpy.data.objects.get(root_name)
+
+    if not root_obj:
+        print(f"未找到名为 '{root_name}' 的根节点对象。请检查大纲视图中的拼写。")
+        return
+
+    vg_names = ["ItemA", "ItemB", "ItemC", "ItemD"]
+    processed_count = 0
+
+    # 遍历 "炮弹" 的所有子级编组 (P1, P2, P3...)
+    for group_obj in root_obj.children:
+        group_name = group_obj.name
+        
+        # 获取该编组下的所有网格体子级，并按名称排序，确保“第一到第四”的顺序稳定
+        meshes = [child for child in group_obj.children if child.type == 'MESH']
+        meshes.sort(key=lambda obj: obj.name)
+        
+        # 严格截取前四个网格体
+        target_meshes = meshes[:4]
+        
+        for i, obj in enumerate(target_meshes):
+            # ================= 1. 添加顶点组 =================
+            vg_name = vg_names[i]
+            
+            # 清理历史残留：如果已存在同名顶点组，先移除
+            if vg_name in obj.vertex_groups:
+                obj.vertex_groups.remove(obj.vertex_groups[vg_name])
+                
+            vg = obj.vertex_groups.new(name=vg_name)
+            # 获取全部顶点索引并满权重(1.0)分配
+            vertex_indices = [v.index for v in obj.data.vertices]
+            vg.add(vertex_indices, 1.0, 'REPLACE')
+            
+            # ================= 2. 添加形态键 =================
+            sk_name = f"C{group_name}"
+            
+            # 确保存在基准形态键 (Basis)
+            if not obj.data.shape_keys:
+                obj.shape_key_add(name="Basis")
+            
+            # 清理历史残留：如果已存在同名目标形态键，先移除
+            if obj.data.shape_keys:
+                existing_sk = obj.data.shape_keys.key_blocks.get(sk_name)
+                if existing_sk:
+                    obj.shape_key_remove(existing_sk)
+            
+            # 生成新的目标形态键
+            sk_target = obj.shape_key_add(name=sk_name)
+            
+            # 遍历该形态键的数据，将其坐标向网格原点缩小到 0.01 倍
+            for v in sk_target.data:
+                v.co = v.co * 0.01
+                
+            processed_count += 1
+
+    print(f"脚本执行完毕！共为 {processed_count} 个网格体添加了顶点组与形态键。")
+
+if __name__ == "__main__":
+    process_artillery_groups()

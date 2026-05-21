@@ -1,0 +1,48 @@
+import bpy
+
+def process_item_collections():
+    root_col_name = "物品"
+    root_col = bpy.data.collections.get(root_col_name)
+
+    if not root_col:
+        print(f"未找到名为 '{root_col_name}' 的主集合。请检查大纲视图中的拼写。")
+        return
+
+    processed_count = 0
+
+    # 遍历主集合下的所有子集合
+    for sub_col in root_col.children:
+        group_name = sub_col.name
+        
+        # 获取子集合下的所有网格体并按名称排序
+        meshes = [obj for obj in sub_col.objects if obj.type == 'MESH']
+        meshes.sort(key=lambda obj: obj.name)
+        
+        # 截取前四个网格体
+        target_meshes = meshes[:4]
+        
+        for i, obj in enumerate(target_meshes):
+            # 彻底清理该物体的所有历史形态键
+            if obj.data.shape_keys:
+                obj.shape_key_clear()
+            
+            # 定义目标形态键名称: I + 编组名 + 索引(0到3)
+            sk_name = f"I{group_name}{i}"
+            
+            # 生成基准形态键 (Basis)
+            sk_basis = obj.shape_key_add(name="Basis")
+            
+            # 生成目标形态键并设定权重为 1.0，使其在视口中保持正常大小
+            sk_target = obj.shape_key_add(name=sk_name)
+            sk_target.value = 1.0
+            
+            # 遍历基型的数据，将其顶点坐标向物体原点缩小到 0.01 倍
+            for v in sk_basis.data:
+                v.co = v.co * 0.01
+                
+            processed_count += 1
+
+    print(f"执行完毕。共为 {processed_count} 个网格体生成了对应的形态键。")
+
+if __name__ == "__main__":
+    process_item_collections()

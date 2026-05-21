@@ -23,4 +23,4 @@ def add_all_vertices_to_group(group_name="All_Vertices"):
 
 if __name__ == "__main__":
     # 你可以在这里修改生成的顶点组名称
-    add_all_vertices_to_group("LeftEye")
+    add_all_vertices_to_group("MHead")
