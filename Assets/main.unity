@@ -426,8 +426,8 @@ MonoBehaviour:
       right: {x: -0.715887, y: 0, z: 0, w: 0.69821614}
     eyesLookingLeft:
       linked: 1
-      left: {x: -0.7157692, y: -0.008120181, z: -0.007921357, w: 0.69824475}
-      right: {x: -0.7157692, y: -0.008120181, z: -0.007921357, w: 0.69824475}
+      left: {x: -0.7157683, y: -0.008120171, z: -0.007921367, w: 0.6982457}
+      right: {x: -0.7157683, y: -0.008120171, z: -0.007921367, w: 0.6982457}
     eyesLookingRight:
       linked: 1
       left: {x: -0.7150302, y: 0.00811213, z: 0.007930283, w: 0.6990015}
@@ -2054,7 +2054,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 391346613}
-  - component: {fileID: 391346614}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -2077,102 +2076,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7614198229535492648}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &391346614
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391346612}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &403205962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3217,7 +3120,7 @@ PrefabInstance:
     - target: {fileID: -8685353870712195865, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000007023681
+      value: 0.0000070236824
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3482,7 +3385,7 @@ PrefabInstance:
     - target: {fileID: -5364104937222249148, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.006108531
+      value: 0.0061085294
       objectReference: {fileID: 0}
     - target: {fileID: -5364104937222249148, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3557,12 +3460,12 @@ PrefabInstance:
     - target: {fileID: -4224762384205266540, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000059593276
+      value: -0.000000059592367
       objectReference: {fileID: 0}
     - target: {fileID: -4224762384205266540, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.010345878
+      value: -0.010345881
       objectReference: {fileID: 0}
     - target: {fileID: -3722641371590372862, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3612,7 +3515,7 @@ PrefabInstance:
     - target: {fileID: -2495096732026957544, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0034358383
+      value: 0.003435839
       objectReference: {fileID: 0}
     - target: {fileID: -2495096732026957544, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3822,7 +3725,7 @@ PrefabInstance:
     - target: {fileID: 3585311994786160644, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0049716146
+      value: 0.004971616
       objectReference: {fileID: 0}
     - target: {fileID: 3585311994786160644, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3872,7 +3775,7 @@ PrefabInstance:
     - target: {fileID: 5672662346544792745, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000032078162
+      value: 0.000000032078173
       objectReference: {fileID: 0}
     - target: {fileID: 5672662346544792745, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -6923,8 +6826,8 @@ MonoBehaviour:
       ParentRotationOffset: {x: 0, y: 0, z: 0}
     totalLength: 1
     overflowList: []
-  cachedExecutionGroupIndex: 1
-  latestValidExecutionGroupIndex: 1
+  cachedExecutionGroupIndex: 0
+  latestValidExecutionGroupIndex: 0
   PositionAtRest: {x: 0, y: 0, z: 0}
   AffectsPositionX: 1
   AffectsPositionY: 1
@@ -7512,8 +7415,8 @@ MonoBehaviour:
       ParentRotationOffset: {x: 0, y: 0, z: 0}
     totalLength: 1
     overflowList: []
-  cachedExecutionGroupIndex: 0
-  latestValidExecutionGroupIndex: 0
+  cachedExecutionGroupIndex: 1
+  latestValidExecutionGroupIndex: 1
   ScaleAtRest: {x: 1, y: 1, z: 1}
   ScaleOffset: {x: 1, y: 1, z: 1}
   AffectsScaleX: 1
