@@ -15,30 +15,30 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 8aacf18645beb6246be96a682438f902, type: 2}
   controls:
   - name: "\u5355\u773C"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 6eceb543d315e7445aa407c2cb612286, type: 3}
     type: 102
     parameter:
-      name: eye
+      name: ieye
     value: 6
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
   - name: "\u95ED\u773C"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: dae774e9f251b524cae63ca4519287d3, type: 3}
     type: 102
     parameter:
-      name: eye
+      name: ieye
     value: 8
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
   - name: "\u54ED"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: c059ff00a83d0194ea7cba022bcbad72, type: 3}
     type: 102
     parameter:
-      name: eye
+      name: ieye
     value: 9
     style: 0
     subMenu: {fileID: 0}

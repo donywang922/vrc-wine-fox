@@ -15,7 +15,7 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 8aacf18645beb6246be96a682438f902, type: 2}
   controls:
   - name: "\u9762\u5177"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 3ab5e000ee3dc5040afe1e7c82d442d7, type: 3}
     type: 102
     parameter:
       name: mask
@@ -25,7 +25,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u751F\u6C14"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: b91b856958c5c244d856c7333d5e5d8e, type: 3}
     type: 102
     parameter:
       name: angry

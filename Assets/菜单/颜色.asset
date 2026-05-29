@@ -15,7 +15,7 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 8aacf18645beb6246be96a682438f902, type: 2}
   controls:
   - name: "\u6A59\u8272"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: e62cc67d631052640a8f3325ba9f6d21, type: 3}
     type: 102
     parameter:
       name: color
@@ -25,7 +25,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u767D\u8272"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: bf82f6537128bf64fb205136c64b133a, type: 3}
     type: 102
     parameter:
       name: color
@@ -35,7 +35,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u7C89\u8272"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 8c60b0209991319498f948a3ac6de1cc, type: 3}
     type: 102
     parameter:
       name: color
@@ -45,7 +45,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u7EFF\u8272"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: bfbd2fe444b6ec54981e8ccfa0f5814d, type: 3}
     type: 102
     parameter:
       name: color
@@ -55,7 +55,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u9ED1\u8272"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 698f6df3436832240aa75b4cd6dbf5bb, type: 3}
     type: 102
     parameter:
       name: color
@@ -65,7 +65,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u91D1\u8272"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 7650677347809d94d9eeae21ff449bd9, type: 3}
     type: 102
     parameter:
       name: color
@@ -75,7 +75,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u7D2B\u7EA2"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: a3a6528fba401374887c5fc18a31b4f3, type: 3}
     type: 102
     parameter:
       name: color
@@ -85,7 +85,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u7EA2\u8272"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 85141e4e234960148ac1e7c4dc890b17, type: 3}
     type: 102
     parameter:
       name: color

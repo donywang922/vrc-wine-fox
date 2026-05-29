@@ -15,7 +15,7 @@ MonoBehaviour:
   Parameters: {fileID: 11400000, guid: 8aacf18645beb6246be96a682438f902, type: 2}
   controls:
   - name: "\u571F\u8C46\u52A0\u519C\u70AE"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: f2b9fc367681b3f4bb04112b2ee95f74, type: 3}
     type: 102
     parameter:
       name: item
@@ -25,7 +25,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u4F38\u7F29\u673A\u68B0\u624B"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 2982101ef7650914cba4602e8134493a, type: 3}
     type: 102
     parameter:
       name: item
@@ -35,7 +35,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u7269\u7406\u624B\u6756"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 8557011dafa17a543abbfa50071df9a0, type: 3}
     type: 102
     parameter:
       name: item
@@ -45,7 +45,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u5BF9\u79F0\u4E4B\u6756"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: fa1ab28d9627d724bb37b727c949a266, type: 3}
     type: 102
     parameter:
       name: item
@@ -55,7 +55,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u6273\u624B"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 269637b76de59304792458803bdbce1e, type: 3}
     type: 102
     parameter:
       name: item
@@ -65,7 +65,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u7EB8\u68CD"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: c6c6bae8dad8bc741b773b6b61fb20d6, type: 3}
     type: 102
     parameter:
       name: item
@@ -75,7 +75,7 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: "\u6273\u673A"
-    icon: {fileID: 0}
+    icon: {fileID: 2800000, guid: 5aa295c00a4f37249a4f514d9721126e, type: 3}
     type: 102
     parameter:
       name: itrigger

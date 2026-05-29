@@ -252,7 +252,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: "blendShape.E\u95ED\u773C"
+    attribute: "blendShape.E\u534A\u7741"
     path: winefox
     classID: 137
     script: {fileID: 0}
@@ -282,7 +282,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: "blendShape.E\u534A\u7741"
+    attribute: "blendShape.E\u95ED\u773C"
     path: winefox
     classID: 137
     script: {fileID: 0}
@@ -360,7 +360,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1094949024
-      attribute: 3585935782
+      attribute: 4105808937
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -369,7 +369,7 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1094949024
-      attribute: 4105808937
+      attribute: 3585935782
       script: {fileID: 0}
       typeID: 137
       customType: 20
@@ -633,7 +633,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: "blendShape.E\u95ED\u773C"
+    attribute: "blendShape.E\u534A\u7741"
     path: winefox
     classID: 137
     script: {fileID: 0}
@@ -663,7 +663,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: "blendShape.E\u534A\u7741"
+    attribute: "blendShape.E\u95ED\u773C"
     path: winefox
     classID: 137
     script: {fileID: 0}

@@ -34,16 +34,6 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
-  - name: eye
-    valueType: 0
-    saved: 1
-    defaultValue: 100
-    networkSynced: 1
-  - name: mouth
-    valueType: 0
-    saved: 1
-    defaultValue: 100
-    networkSynced: 1
   - name: mask
     valueType: 2
     saved: 1
@@ -60,6 +50,26 @@ MonoBehaviour:
     defaultValue: 0
     networkSynced: 1
   - name: itrigger
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: ieye
+    valueType: 0
+    saved: 1
+    defaultValue: 100
+    networkSynced: 1
+  - name: imouth
+    valueType: 0
+    saved: 1
+    defaultValue: 100
+    networkSynced: 1
+  - name: visemeOn
+    valueType: 2
+    saved: 1
+    defaultValue: 1
+    networkSynced: 1
+  - name: switchGesture
     valueType: 2
     saved: 1
     defaultValue: 0
