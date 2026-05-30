@@ -3,7 +3,12 @@ guid: 8c1b2f098d98a7148b61f44caacd3f5e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_0
+    second: {fileID: 2100000, guid: 6057a7a37c8003b4e92deb4061d50370, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -19,118 +24,50 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'MRoot|attacked' has import animation warnings
+    animationImportWarnings: "\nClip 'MRoot|climb' has import animation warnings
       that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'MHead' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\nClip 'MRoot|climb' has
+      to improve retargeting quality.\n\t'DownBody' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'MRoot|extra3' has
       import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'MHead' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|death' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|extra1' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|extra2' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|extra3' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|extra6' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|extra7' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      translation DOF on avatar to improve retargeting quality.\n\t'DownBody' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
       'MRoot|extra:changyeyao1' has import animation warnings that might lower retargeting
       quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MUpBody'
-      has translation animation that will be discarded.\n\t'MHead' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DownBody'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      has translation animation that will be discarded.\n\t'DownBody' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
       'MRoot|extra:changyeyao2' has import animation warnings that might lower retargeting
       quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MUpBody'
-      has translation animation that will be discarded.\n\t'MHead' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DownBody'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|extra:dooble:empty' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Mouth_cute_laugh'
-      has translation animation that will be discarded.\n\nClip 'MRoot|extra:huhuyao:empty'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|extra:sanfenmaiba:empty' has import animation warnings that might lower
-      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
-      quality.\n\t'MUpBody' has translation animation that will be discarded.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
       has translation animation that will be discarded.\n\t'DownBody' is inbetween
       humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|idle' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|jump' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|keyboard' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|ladder_up' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'DownBody'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|molang&extra:dooble' has import animation warnings that might lower
+      'MRoot|extra:huhuyao:empty' has import animation warnings that might lower
       retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
-      quality.\n\t'Mouth_cute_laugh' has translation animation that will be discarded.\n\nClip
-      'MRoot|molang&extra:huhuyao1' has import animation warnings that might lower
-      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
-      quality.\n\t'MHead' is inbetween humanoid transforms and has rotation animation
-      that will be discarded.\n\t'DownBody' is inbetween humanoid transforms and
-      has rotation animation that will be discarded.\n\nClip 'MRoot|molang&extra:huhuyao2'
+      quality.\n\t'DownBody' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\nClip 'MRoot|extra:sanfenmaiba:empty' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'MUpBody' has translation
+      animation that will be discarded.\n\t'DownBody' has translation animation that
+      will be discarded.\n\t'DownBody' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\nClip 'MRoot|ladder_up' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'DownBody' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'MRoot|molang&extra:huhuyao1'
       has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'DownBody'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|molang&extra:huhuyao3' has import animation warnings that might lower
+      'MRoot|molang&extra:huhuyao2' has import animation warnings that might lower
       retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
-      quality.\n\t'MHead' is inbetween humanoid transforms and has rotation animation
-      that will be discarded.\n\t'DownBody' is inbetween humanoid transforms and
-      has rotation animation that will be discarded.\n\nClip 'MRoot|molang&extra:sanfenmaiba'
+      quality.\n\t'DownBody' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\nClip 'MRoot|molang&extra:huhuyao3' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'DownBody' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\nClip 'MRoot|molang&extra:sanfenmaiba'
       has import animation warnings that might lower retargeting quality:\nNote:
       Activate translation DOF on avatar to improve retargeting quality.\n\t'MUpBody'
-      has translation animation that will be discarded.\n\t'MHead' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'DownBody'
-      has translation animation that will be discarded.\n\t'DownBody' is inbetween
-      humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|new_idle_2' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|new_idle_3' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|new_idle_4' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|run' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|sneak' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|swim' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|swim_stand' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'DownBody'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|use_mainhand:gohei' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
-      'MRoot|walk' has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'MHead'
+      has translation animation that will be discarded.\n\t'DownBody' has translation
+      animation that will be discarded.\n\t'DownBody' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'MRoot|swim_stand'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'DownBody'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
