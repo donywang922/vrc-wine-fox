@@ -58,7 +58,7 @@ dev.vrlabs.world-constraint-1.2.5.unitypackage -- 世界约束，详见[https://
 
 1. 署名 (Attribution)
 在使用、修改或分发本模型时，必须保留并注明以下贡献者信息：
-* 原作者： godzilla256, 星屑海螺 (来自 车万女仆模组)
+* 原作者： 完美冻结 星屑海螺 哥斯拉（映素团队）白帆小喵 蓝玫瑰 墨染逝羽 Maks怜悯 浅陌菌 祸御神 羊毛 再来几斤小莫莫 Tex\_offcial
 * 改编者： YWsuoyi
 2. 非商业性使用 (Non-Commercial)
 * 禁止将本项目中的任何资产用于商业用途。
