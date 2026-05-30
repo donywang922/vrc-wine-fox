@@ -48,8 +48,6 @@ blender/ -- blender工程文件和脚本。
 
 wine fox.unitypackage -- 导出的unity package，用于更方便的导入。
 
-酒狐合并.fbx -- 最终的fbx文件。
-
 dev.vrlabs.world-constraint-1.2.5.unitypackage -- 世界约束，详见[https://github.com/VRLabs/World-Constraint](https://github.com/VRLabs/World-Constraint)
 
 
