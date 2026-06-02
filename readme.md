@@ -1,3 +1,5 @@
+[中文](readme.md) | [English](readme_en.md)
+
 # 酒狐 VRChat 模型 工程文件
 
 酒狐(角色) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [车万女仆(Touhou Little Maid)](https://modrinth.com/mod/touhou-little-maid) 模组。
