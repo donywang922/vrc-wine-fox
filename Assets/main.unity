@@ -358,7 +358,7 @@ MonoBehaviour:
   blueprintId: avtr_57396e94-ef12-461f-b6de-73f2774d347e
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 0
+  fallbackStatus: 3
 --- !u!114 &42833521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3484,7 +3484,7 @@ PrefabInstance:
     - target: {fileID: -5364104937222249148, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0061085136
+      value: 0.006108511
       objectReference: {fileID: 0}
     - target: {fileID: -5364104937222249148, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3559,7 +3559,7 @@ PrefabInstance:
     - target: {fileID: -4224762384205266540, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00007982383
+      value: 0.000079823745
       objectReference: {fileID: 0}
     - target: {fileID: -4224762384205266540, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3569,7 +3569,7 @@ PrefabInstance:
     - target: {fileID: -4224762384205266540, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.010351217
+      value: -0.010351223
       objectReference: {fileID: 0}
     - target: {fileID: -3722641371590372862, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3614,7 +3614,7 @@ PrefabInstance:
     - target: {fileID: -2495096732026957544, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.003444663
+      value: 0.0034446616
       objectReference: {fileID: 0}
     - target: {fileID: -2495096732026957544, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
@@ -3789,7 +3789,7 @@ PrefabInstance:
     - target: {fileID: 3585311994786160644, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.004971632
+      value: 0.0049716346
       objectReference: {fileID: 0}
     - target: {fileID: 3585311994786160644, guid: 008f27bea202f194ba4bf218aa9e6ab1,
         type: 3}
