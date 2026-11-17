@@ -2,6 +2,8 @@
 
 # Wine Fox VRChat Avatar Project Files
 
+If you'd like to use Wine Fox's props on another avatar, check out the [standalone Modular Avatar prefab](https://github.com/donywang922/vrc-winefox-items).
+
 Wine Fox (character) is from the [Touhou Little Maid](https://modrinth.com/mod/touhou-little-maid) mod of [Minecraft](https://www.minecraft.net/).
 
 Original work: 完美冻结 星屑海螺 哥斯拉（映素团队）白帆小喵 蓝玫瑰 墨染逝羽 Maks怜悯 浅陌菌 祸御神 羊毛 再来几斤小莫莫 Tex\_offcial

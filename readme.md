@@ -2,6 +2,8 @@
 
 # 酒狐 VRChat 模型 工程文件
 
+如果你看上了酒狐的道具，可以看看[独立道具 MA 预制件](https://github.com/donywang922/vrc-winefox-items)，方便安装到其他 Avatar 上。
+
 酒狐(角色) 来自 [我的世界(minectaft)](https://www.minecraft.net/) 的 [车万女仆(Touhou Little Maid)](https://modrinth.com/mod/touhou-little-maid) 模组。
 
 原作 完美冻结 星屑海螺 哥斯拉（映素团队）白帆小喵 蓝玫瑰 墨染逝羽 Maks怜悯 浅陌菌 祸御神 羊毛 再来几斤小莫莫 Tex\_offcial
