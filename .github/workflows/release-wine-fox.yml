@@ -1,0 +1,64 @@
+name: Release Wine Fox
+
+on:
+  push:
+    branches:
+      - rebuild
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: ${{ !github.event.deleted }}
+    runs-on: ubuntu-latest
+    concurrency:
+      group: release-wine-fox-${{ github.sha }}
+    env:
+      PACKAGE: wine fox.unitypackage
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.sha }}
+          sparse-checkout: /wine fox.unitypackage
+          sparse-checkout-cone-mode: false
+
+      - name: Check whether the package changed
+        id: package
+        shell: bash
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [[ ! -f "$PACKAGE" ]]; then
+            exit 0
+          fi
+
+          previous_blob=
+          if [[ "$BEFORE" != 0000000000000000000000000000000000000000 ]]; then
+            git fetch --no-tags --depth=1 --filter=blob:none origin "$BEFORE"
+            previous_blob=$(git rev-parse --verify --quiet "$BEFORE:$PACKAGE" || true)
+          fi
+
+          current_blob=$(git rev-parse "$GITHUB_SHA:$PACKAGE")
+          if [[ "$current_blob" != "$previous_blob" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish the package
+        if: steps.package.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="rebuild-$GITHUB_SHA"
+          if draft=$(gh release view "$tag" --json isDraft --jq '.isDraft'); then
+            if [[ "$draft" == false ]]; then
+              exit 0
+            fi
+          else
+            gh release create "$tag" --draft --target "$GITHUB_SHA" \
+              --title "Wine Fox (${GITHUB_SHA:0:7})" --generate-notes
+          fi
+
+          gh release upload "$tag" "$PACKAGE#$PACKAGE" --clobber
+          gh release edit "$tag" --draft=false
